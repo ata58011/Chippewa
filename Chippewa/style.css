@@ -1,0 +1,139 @@
+/* I designed this website to width:900px if your device is bigger than that can be look ugly  */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background-color: #f5f4ef;
+}
+h2 {
+  margin-bottom: 15px;
+}
+p {
+  font-size: 24px;
+}
+header {
+  text-align: center;
+  margin-top: 30px;
+}
+header h1 img {
+  padding-top: 20px;
+}
+
+.container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 60px;
+  flex-basis: 50%;
+}
+.container .box img {
+  width: 400px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.container .box h2 {
+  display: inline-flex;
+}
+.container .txt {
+  margin-left: 20px;
+}
+
+.container .box:nth-child(2) img {
+  width: 400px;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.container .box:nth-child(4) img {
+  width: 400px;
+  height: 400px;
+  margin-left: 40px;
+}
+
+.price {
+  text-align: center;
+  font-size: 18px;
+}
+.price h6 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.forum {
+  background-color: #9bccbb;
+  display: block;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.forum h2,
+h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+.forum h2 {
+  margin-top: 10px;
+}
+.forum h3 {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.forum label {
+  display: inline-block;
+  padding-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.forum label input {
+  padding-right: 50px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: #9bccbb;
+  color: black;
+  margin-top: 10px;
+}
+footer {
+  background-color: #f5f4f1;
+  height: 80px;
+  text-align: center;
+}
+.social-links {
+  margin-top: 10px;
+}
+.social-links li {
+  display: inline-block;
+
+  padding-left: 15px;
+}
+.social-links li i {
+  border: 1px solid black;
+
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+
+  font-size: 18px;
+  padding: 5px;
+}
+
+footer h4 {
+  margin-top: 10px;
+  font-weight: 400;
+}
